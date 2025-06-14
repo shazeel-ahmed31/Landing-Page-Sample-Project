@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.headtext{
+    color: aqua;
+}
+
+.navmenu ul{
+    display: flex;
+    list-style: none;
+    padding: 30px 30px;
+}
+
+.navmenu ul li{
+    margin-left: 20px;
+}
+
+.logo{
+    padding: 30px;
+    font-size: 20px;
+}
+
+
+
+header{
+    background-image: url(hero-bg.jpg);
+    /* opacity : 0.5; */
+    background-position: top;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.headtext{
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 800px;
+}
+
+.headtext h1,h2{
+    font-size: 45px;
+}
+
+.headtext h2{
+    color: rgb(218, 218, 11);
+}
+
+
+
+.headtext p{
+    color: white;
+    margin-top: 8px;
+}
+
+.headtext button{
+    background-color: rgb(218, 231, 72); 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+.b1{
+    background-color: rgb(253, 245, 229) !important;
+    color: black !important;
+}
+
+
+
+.who{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.pic img{
+    width: 500px;
+}
+
+.first{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    width: 1200px;
+}
+
+.overflow{
+    padding: 25px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    background: white;
+    position: absolute;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+}
+
+.overflow button{
+
+    background-color: rgb(218, 231, 72); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.overflow h4{
+font-size: 25px;
+}
+
+.overflow p{
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.servicesection{
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: black;
+
+}
+
+.Grid{
+    margin-bottom: 50px;
+}
+
+.services{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.posts{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    gap: 15px;
+    text-align: center;
+    padding: 50px;
+}
+
+.posts h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.posts p{
+    font-size: 15px;
+}
+
+.posts button{
+    background-color: rgb(218, 231, 72); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 30px;
+
+
+}
+
+.item1{
+    color: black;
+    background-color: white;
+    width: 800px;
+padding: 18px;
+}
+
+.contact h2{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+.Contactus{
+background-image: url(ontact-bg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+color: white;
+}
+
+.Form{
+text-align: center;
+}
+
+.Form input {
+width: 50%; 
+padding: 12px;  
+border: 1px solid 
+border-radius: 4px;
+box-sizing: border-box; 
+margin-top: 6px; 
+margin-bottom: 15px;
+
+}
+
+.Form button{
+    background-color: rgb(218, 231, 72); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.guardsection{
+    max-width: 1600px;
+    margin: auto;
+}
+
+.items{
+text-align: center;
+margin-bottom: 50px;
+margin-top: 50px;
+}
+
+
+
+.cells{
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    margin: auto;
+    gap: 15px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.cells h3{
+    text-align: center;
+}
+
+
+
+.gridimg{
+    width: 500px;
+    position: relative;
+}
+
+.gridimg img{
+    width: 100%;
+}
+
+.gridcontent{
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    color: white;
+    
+}
+
+.imagebutton button{
+    background-color: rgb(218, 231, 72); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.Foot{
+    max-width: 1600px;
+    margin: auto;
+    background-color: black;
+}
+
+.Footer h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Contactfooter{
+width: 200px;
+}
+
+.Footer ul li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 1200px;
+    margin: auto;
+    gap: 30px;
+    padding: 20px;
+}
+
+
+.final button{
+    background-color: rgb(204, 204, 14);
+    padding: 5px;
+    border: solid 1px rgb(204, 204, 14);
+    font-size: 12px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
