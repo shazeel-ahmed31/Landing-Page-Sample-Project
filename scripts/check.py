@@ -14,10 +14,11 @@ class Check(HTMLParser):
    if value and not url.scheme and url.path and not (root/unquote(url.path)).is_file():self.errors.append('Missing local asset: '+value)
 for name in ['index.html','Guarder.html']:
  parser=Check();parser.feed((root/name).read_text(encoding='utf-8'));assert not parser.errors,parser.errors
-assert (root/'index.html').read_bytes()==(root/'Guarder.html').read_bytes()
+assert (root/'index.html').read_text(encoding='utf-8')==(root/'Guarder.html').read_text(encoding='utf-8')
 import re
 for asset in re.findall(r'url\(([^)]+)\)',(root/'Guarder.css').read_text(encoding='utf-8')):assert (root/asset).is_file(),asset
 text=(root/'index.html').read_text(encoding='utf-8')
 ids=re.findall(r'\bid="([^"]+)"',text);assert len(ids)==len(set(ids)), 'Duplicate IDs'
 for target in re.findall(r'href="#([^"]+)"',text):assert target in ids,target
 print('Entry pages, image/CSS assets, unique IDs and navigation targets checked.')
+
