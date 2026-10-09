@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Fictional security-services landing page demonstrating responsive HTML and CSS."><title>Guarder — Landing Page Demo</title><link rel="stylesheet" href="Guarder.css"></head>
+<body>
+<a class="skip-link" href="#about">Skip to content</a>
+<header id="home">
+ <div class="head"><a class="logo" href="#home">GUARDER</a><nav class="navmenu" aria-label="Main navigation"><ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#guards">Guards</a></li><li><a href="#contact">Contact</a></li></ul></nav></div>
+ <div class="Container"><div class="headtext"><p class="demo-note">Fictional brand · frontend landing page demonstration</p><h1>YOUR SAFETY<br><span>OUR RESPONSIBILITY</span></h1><p>A sample security-services layout showing clear navigation, service cards and a responsive contact section. No actual security service is offered.</p><div class="actions"><a class="button b1" href="#about">Read More</a><a class="button b2" href="#contact">Try the contact demo</a></div></div></div>
+</header>
+<main>
+ <section class="who" id="about" aria-labelledby="aboutTitle"><div class="first"><div class="pic"><img src="about-img.jpg" alt="Illustrative security professional" loading="lazy" decoding="async"></div><div class="overflow"><h2 id="aboutTitle">WHO ARE WE?</h2><p>Guarder is a fictional brand used to practice semantic HTML, responsive CSS layouts and reusable page sections. All service and staff descriptions are sample content.</p><a class="button" href="#services">Explore sample services</a></div></div></section>
+ <section class="servicesection" id="services" aria-labelledby="servicesTitle"><div class="Grid"><div class="services"><h2 id="servicesTitle">SAMPLE SERVICES</h2></div><div class="posts">
+ <article class="item1"><span class="service-icon" aria-hidden="true">⌂</span><h3>HOME SECURITY</h3><p>Illustrative service card for residential security. This text demonstrates content hierarchy rather than verified services or guarantees.</p><a class="button" href="#contact">Try contact demo</a></article>
+ <article class="item1"><span class="service-icon" aria-hidden="true">▤</span><h3>OFFICE SECURITY</h3><p>A sample workplace-security description, arranged using a responsive grid that adapts to narrow screens.</p><a class="button" href="#contact">Try contact demo</a></article>
+ <article class="item1"><span class="service-icon" aria-hidden="true">◇</span><h3>PERSONAL SECURITY</h3><p>A fictional personal-security example completing the three-card layout. No actual protection service is provided.</p><a class="button" href="#contact">Try contact demo</a></article>
+ </div></div></section>
+ <section class="Contactus" id="contact" aria-labelledby="contactTitle"><div class="contact"><h2 id="contactTitle">CONTACT FORM DEMO</h2><p>No message is sent or stored. Use sample information.</p><div class="Form"><form id="contactForm">
+ <label for="name">Full name</label><input type="text" id="name" autocomplete="name" maxlength="100" required>
+ <label for="email">Email</label><input type="email" id="email" autocomplete="email" maxlength="254" required>
+ <label for="phone">Phone (optional)</label><input type="tel" id="phone" autocomplete="tel" maxlength="40">
+ <label for="message">Message</label><textarea id="message" rows="5" maxlength="2000" required></textarea>
+ <button type="submit" class="button" disabled>Try demo form</button><p id="formStatus" role="status"></p><noscript>This local demo requires JavaScript. It does not send messages.</noscript>
+ </form></div></div></section>
+ <section class="guardssection" id="guards" aria-labelledby="guardsTitle"><div class="items"><div class="Guards"><h2 id="guardsTitle">SAMPLE STAFF CARDS</h2><p>Fictional profile captions demonstrate a reusable card layout. The original images are illustrative, not verified staff portraits.</p></div><div class="cells">
+ <figure class="gridimg"><img src="t1.jpg" alt="Illustrative staff image one" loading="lazy" decoding="async"><figcaption class="gridcontent">Sample profile one</figcaption></figure>
+ <figure class="gridimg"><img src="t2.jpg" alt="Illustrative staff image two" loading="lazy" decoding="async"><figcaption class="gridcontent">Sample profile two</figcaption></figure>
+ <figure class="gridimg"><img src="t3.jpg" alt="Illustrative staff image three" loading="lazy" decoding="async"><figcaption class="gridcontent">Sample profile three</figcaption></figure>
+ </div></div></section>
+</main>
+<footer class="Foot"><div class="Footer"><div class="guarder"><h2>Guarder</h2><p>Fictional frontend demonstration. No real business, service delivery or staff directory is represented.</p></div><div class="Links"><h2>Page sections</h2><ul><li><a href="#about">About this demo</a></li><li><a href="#services">Sample services</a></li><li><a href="#guards">Sample profiles</a></li></ul></div><div class="Contactfooter"><h2>Sample contact details</h2><p>No real office address or telephone is configured.</p><p>contact@example.com (demonstration only)</p></div><div class="final"><h2>Newsletter demo</h2><p>No subscription is created.</p><form id="newsletterForm"><label for="newsletterEmail">Sample email</label><input type="email" id="newsletterEmail" maxlength="254" required><button type="submit" class="button" disabled>Try subscription demo</button><p id="newsletterStatus" role="status"></p><noscript>JavaScript is required for local demo feedback.</noscript></form></div></div></footer>
+<script src="script.js"></script>
+</body></html>
